@@ -1,0 +1,53 @@
+html{
+    font-size: 62.5%;
+    text-align: center;
+    font-family: mate;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hd1{
+    margin-top: 20px;
+}
+.hd2{
+    font-size: 4rem;
+}
+.hd3{
+    font-size: 2.3rem;
+}
+ul{
+    margin-top: 35px;
+    border: 2px solid #000000;
+    height: 50px;
+    padding-top: 18px;
+    font-size: 1.3rem;
+    font-weight: 900;
+}
+li{
+    display: inline;
+    margin: 15px;
+    padding: 15px;
+    cursor: pointer;
+}
+li:hover
+{
+    color: #8a2be2;
+}
+img{
+    margin-top: 20px;
+}
+p{
+    margin-top: 15px;
+    font-size: 1.6rem;
+    font-family: r;
+}
+@font-face {
+ src: url(./MateSC-Regular.ttf);
+ font-family: mate ;
+}
+@font-face {
+    font-family: r;
+    src: url(./Kalam-Regular.ttf);
+}
